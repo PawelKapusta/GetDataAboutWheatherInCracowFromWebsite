@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: jhy
+Build-Jdk: 1.6.0_24
+Export-Package: org.jsoup;uses:="org.jsoup.nodes,org.jsoup.parser,org.
+ jsoup.helper,org.jsoup.safety",org.jsoup.examples;uses:="org.jsoup,or
+ g.jsoup.select,org.jsoup.nodes,org.jsoup.helper",org.jsoup.helper;use
+ s:="org.jsoup,org.jsoup.select,org.jsoup.nodes,org.jsoup.parser",org.
+ jsoup.nodes;uses:="org.jsoup.helper,org.jsoup.parser,org.jsoup.select
+ ",org.jsoup.parser;uses:="org.jsoup.nodes,org.jsoup.helper",org.jsoup
+ .safety;uses:="org.jsoup.nodes,org.jsoup.parser,org.jsoup.helper",org
+ .jsoup.select;uses:="org.jsoup.nodes,org.jsoup.helper,org.jsoup.parser"
+Tool: Bnd-1.15.0
+Bundle-Name: jsoup
+Bundle-Vendor: Jonathan Hedley
+Bundle-Version: 1.6.0
+Bnd-LastModified: 1307947660603
+Bundle-ManifestVersion: 2
+Bundle-License: http://jsoup.com/license
+Bundle-Description: jsoup HTML parser
+Bundle-SymbolicName: org.jsoup
+Bundle-DocURL: http://jsoup.org/
+
