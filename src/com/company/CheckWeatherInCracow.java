@@ -97,7 +97,7 @@ public class CheckWeatherInCracow {
                 try {
                     br.close();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    System.out.println("Error with: " + e.getMessage());
                 }
             }
         }
