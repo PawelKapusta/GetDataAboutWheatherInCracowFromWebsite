@@ -108,20 +108,19 @@ public class CheckWeatherInCracow {
             throw new WrongData("Wrong cloudy! It is out of normal cloudy range!");
         }
     }
+    private static void isPressureInRange(double pressure) throws WrongData {
+        if (pressure < 500 || pressure > 1500) {
+            throw new WrongData("Wrong pressure! It is out of normal pressure range!");
+        }
+    }
     private static void isCorrectRangeCelsiusTemperature(String temperature) throws WrongData {
 
         String temp = temperature.replace("°","");
         int givenTemperature = Integer.parseInt(temp);
 
-        if (givenTemperature < -50 || givenTemperature > 50) {
+        if (givenTemperature > 50 || givenTemperature < -50) {
             throw new WrongData("Wrong temperature! It is not Celsius temperature!");
         }
     }
-
-    private static void isPressureInRange(double pressure) throws WrongData {
-        if (pressure < 500 || pressure > 1500) {
-            throw new WrongData("Wrong pressure! It is out of normal pressure range!");
-        }
-         }
 
     }
